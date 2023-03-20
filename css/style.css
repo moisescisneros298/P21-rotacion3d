@@ -41,4 +41,20 @@ section .card .box {
 }
 section .card:hover .box {
   transform: rotateY(180deg);
+}
+section .card .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+section .card .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
