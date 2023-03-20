@@ -87,4 +87,10 @@ section .card .contentBx div h2 {
   letter-spacing: 1px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+}
+section .card .contentBx div p {
+  font-size: 16px;
+  color: #fff;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }/*# sourceMappingURL=style.css.map */
