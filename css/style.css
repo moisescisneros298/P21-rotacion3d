@@ -72,4 +72,19 @@ section .card .contentBx {
   transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+}
+section .card .contentBx div {
+  transform-style: preserve-3d;
+  transform: translateZ(100px);
+  background: linear-gradient(45deg, #fe0061, #ffeb38);
+  padding: 20px;
+  margin: 0 30px;
+  border-radius: 15px;
+}
+section .card .contentBx div h2 {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }/*# sourceMappingURL=style.css.map */

@@ -69,6 +69,20 @@ section {
             align-items: center;
             transform-style: preserve-3d;
             backface-visibility: hidden;
+            div {
+                transform-style: preserve-3d;
+                transform: translateZ(100px);
+                background: linear-gradient(45deg, #fe0061, #ffeb38);
+                padding: 20px;
+                margin: 0 30px;
+                border-radius: 15px;
+                h2 {
+                    font-size: 20px;
+                    color: #fff;
+                    letter-spacing: 1px;
+                    backface-visibility: hidden;
+                }
+            }
         }
     }
 }
