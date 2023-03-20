@@ -56,5 +56,19 @@ section {
                 object-fit: cover;
             }
         }
+        .contentBx {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #333;
+            transform: rotateY(180deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-style: preserve-3d;
+            backface-visibility: hidden;
+        }
     }
 }
