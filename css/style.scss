@@ -20,6 +20,13 @@ section {
     width: 100%;
     flex-wrap: wrap;
     .card{
-        posi
+        position: relative;
+        width: 320px;
+        height: 320px;
+        margin: 20px;
+        transform-style: preserve-3d;
+        border-radius: 15px;
+        overflow: hidden;
+        
     }
 }
