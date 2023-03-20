@@ -11,4 +11,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  width: 100%;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */
