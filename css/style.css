@@ -29,6 +29,4 @@ section .card {
   transform-style: preserve-3d;
   border-radius: 15px;
   overflow: hidden;
-  -o-object-fit: cover;
-     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
